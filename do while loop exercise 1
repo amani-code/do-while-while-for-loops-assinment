@@ -1,0 +1,24 @@
+//137220 amani shaka chege
+//do while loop exercise 1
+#include <iostream>
+using namespace std;
+
+int
+main ()
+{
+  int number = 12;
+
+
+  do
+    {
+
+      cout << "\n" << number;
+      number = number + 2;
+
+    }
+  while (number <= 50);
+
+
+
+  return 0;
+}

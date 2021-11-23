@@ -1,0 +1,21 @@
+//137220 amani shaka chege
+//the for loop exercise 2
+
+#include <iostream>
+using namespace std;
+
+int
+main ()
+{
+  int number;
+  int average = 0;
+
+
+  for (number = 20; number <= 25; number++)
+    average = average + number;
+
+
+  cout << "Total average of numbers between 20 and 25 is:\n" << average;
+
+
+}

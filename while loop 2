@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	int number = 20;
+	int end = 0;
+	
+	while(number<=25){
+		
+		end= end + number;
+		number++;
+	}
+	
+	cout<< "Sum of number between 20-25 is:\n"<<end<< endl;
+	
+	return 0;
+}
+

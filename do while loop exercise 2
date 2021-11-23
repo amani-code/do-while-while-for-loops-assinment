@@ -1,0 +1,23 @@
+//137220 amani shaka chege
+//do while loop exercise 2
+#include <iostream>
+using namespace std;
+
+int
+main ()
+{
+  int number = 20;
+  int end = 0;
+
+  do
+    {
+
+      end = end + number;
+      number++;
+    }
+  while (number <= 25);
+
+  cout << "the sum of the  number between 20-25 is:\n" << end << endl;
+
+  return 0;
+}
